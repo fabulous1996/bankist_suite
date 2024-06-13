@@ -195,7 +195,7 @@ const startLogOutTimer = function () {
     //In each call, print the remaining time to the UI
     labelTimer.textContent = `${min}:${sec}`;
 
-    //When 0 second, stom timer and log out user
+    //When 0 second, stop timer and log out user
     if (time === 0) {
       clearInterval(timer);
       labelWelcome.textContent = `Log in to get started ${
@@ -207,7 +207,7 @@ const startLogOutTimer = function () {
     //Decrease 1s
     time--;
   };
-  //Setting time to 5 minutes
+  //Setting time to 2 minutes
   let time = 120;
 
   //Call the timer every seconds
@@ -483,11 +483,11 @@ console.log(
 ); */
 
 //Timers: setTimeOut and setInterval
-const ingredients = ['poivrons', 'champignons'];
+/*const ingredients = ['poivrons', 'champignons'];
 const pizzaTimer = setTimeout(
   (ing1, ing2) => console.log(`Voici votre pizza aux ${ing1} et ${ing2} 🍕`),
   2000,
   ...ingredients
 );
 console.log('Veuillez patienter...');
-if (ingredients.includes('lardons')) clearTimeout(pizzaTimer);
+if (ingredients.includes('lardons')) clearTimeout(pizzaTimer); */
