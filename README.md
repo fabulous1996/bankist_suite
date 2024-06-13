@@ -1,5 +1,5 @@
 # Bankist
-Project in HTML, CSS and JavaScript from Jonas Schmedtmann Javascript course on Udemy. The HTML and CSS files are already provided in order to get focus only on Javascript.
+Project in JavaScript from Jonas Schmedtmann Javascript course on Udemy. The HTML and CSS files are already provided in order to focus only on Javascript.
 
 # Aim of the project
 The goal here is to simulate a bank app in which clients can transfer money and request a loan.
